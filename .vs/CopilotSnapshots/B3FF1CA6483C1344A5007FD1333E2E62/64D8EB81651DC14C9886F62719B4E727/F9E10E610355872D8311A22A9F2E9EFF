@@ -1,0 +1,35 @@
+﻿#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+double g(const double a, const double b);
+
+int main()
+{
+    double s, t;
+
+    cout << "s = ";
+    cin >> s;
+
+    cout << "t = ";
+    cin >> t;
+
+    double g1 = g(1, s);
+    double g2 = g(t, 1);
+    double g3 = g(s + t, 1);
+
+    double z = (g1 + pow(1 + pow(g2, 2), 2)) /
+        (1 + pow(g3, 3));
+
+    cout << setprecision(10);
+    cout << "Z = " << z << endl;
+
+    return 0;
+}
+
+double g(const double a, const double b)
+{
+    return a * a + a * b + b * b;
+}

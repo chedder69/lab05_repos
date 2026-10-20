@@ -1,0 +1,41 @@
+﻿#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+using namespace std;
+
+double g(const double a, const double b);
+
+#ifndef UNIT_TEST
+int main()
+{
+    double s, t;
+
+    cout << "s = ";
+    cin >> s;
+
+    cout << "t = ";
+    cin >> t;
+
+    //double g1 = g(1, s);
+    //double g2 = g(t, 1);
+    //double g3 = g(s + t, 1);
+
+    cout << setprecision(10);
+    cout << "Z = " << z(s,t) << endl;
+
+    return 0;
+}
+#endif
+
+
+double g(const double a, const double b)
+{
+    return ((a * a) + a * b + (b * b));
+}
+
+double z(double s, double t)
+{
+    return (g(1, s) + pow(1 + pow(g(t, 1), 2), 2)) /
+        (1 + pow(g(s + t, 1), 3));
+}

@@ -1,0 +1,26 @@
+﻿#include "pch.h"
+#include "CppUnitTest.h"
+
+#define UNIT_TEST
+#include "..\PR5.1\PR5.1.cpp"
+
+using namespace Microsoft::VisualStudio::CppUnitTestFramework;
+
+namespace UnitTest2
+{
+
+	TEST_CLASS(UnitTest2)
+	{
+	public:
+
+		TEST_METHOD(TestMethod1)
+		{
+			//cout << x << endl;
+			//Assert::AreEqual(0.970294, z(2, 3),	 0.000001);
+			double x = z(2, 3);	
+			Assert::AreEqual(0.970294, x);
+
+		}
+
+	};
+}
