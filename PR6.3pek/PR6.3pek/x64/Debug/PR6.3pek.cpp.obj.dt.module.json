@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "PR6.3pek\\x64\\Debug\\PR6.3pek.obj",
+            "outputs": [
+                "PR6.3pek\\x64\\Debug\\PR6.3pek.cpp.obj.dt.module.json",
+                "PR6.3pek\\x64\\Debug\\PR6.3pek.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
