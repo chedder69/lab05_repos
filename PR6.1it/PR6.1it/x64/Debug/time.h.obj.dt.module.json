@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "PR6.1it\\x64\\Debug\\time.obj",
+            "outputs": [
+                "PR6.1it\\x64\\Debug\\time.h.obj.dt.module.json",
+                "PR6.1it\\x64\\Debug\\time.h.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
