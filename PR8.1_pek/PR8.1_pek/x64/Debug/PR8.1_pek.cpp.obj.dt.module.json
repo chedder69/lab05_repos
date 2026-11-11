@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "PR8.1_pek\\x64\\Debug\\PR8.1_pek.obj",
+            "outputs": [
+                "PR8.1_pek\\x64\\Debug\\PR8.1_pek.cpp.obj.dt.module.json",
+                "PR8.1_pek\\x64\\Debug\\PR8.1_pek.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
